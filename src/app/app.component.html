@@ -1,4 +1,7 @@
-<h1>{{ title }}</h1>
+<app-menu></app-menu>
+<router-outlet></router-outlet>
+
+<!--<h1>{{ title }}</h1>
 <form>
   <label for="inputField">Input Field:</label>
   <input type="text" id="inputField" name="inputField" (keyup)="updateTitle($event)">
@@ -8,14 +11,10 @@
   <li> Prenom : {{ personne.prenom | json }}</li>
   <li> Person : {{ personne | json }}</li>
 </ul>
-<ul>
-coucou
-  <li  *ngFor= "let pp in tab"> {{pp}} </li>
-</ul>
 <p> {{direBonjour()}}</p>
 
-<p [textContent]=title ></p>
+<p [textContent]=title ></p>-->
 
-<app-adresse></app-adresse>
-<app-menu></app-menu>
 <app-observable></app-observable>
+<app-adresse></app-adresse>
+
