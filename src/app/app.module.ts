@@ -8,6 +8,7 @@ import { StagiaireComponent } from './stagiaire/stagiaire.component';
 import { AdresseComponent } from './adresse/adresse.component';
 import { ObservableComponent } from './observable/observable.component';
 import {AppRountingModule} from "./app-routing.module";
+import { PipeTestPipe } from './pipe-test.pipe';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import {AppRountingModule} from "./app-routing.module";
     MenuComponent,
     StagiaireComponent,
     AdresseComponent,
-    ObservableComponent
+    ObservableComponent,
+    PipeTestPipe
   ],
   imports: [
     BrowserModule,
